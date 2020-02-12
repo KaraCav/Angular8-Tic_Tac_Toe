@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.main {
+    text-align: center;
+    header {
+        font-size: 24px;
+    }
+    .board {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
